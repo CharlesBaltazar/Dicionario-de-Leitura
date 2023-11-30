@@ -1,0 +1,140 @@
+body {
+    background-color: rgb(136, 130, 148);
+}
+
+header {
+    display: flex;
+    justify-content: center;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container-header {
+    margin: 10px;
+    background-color: rgb(71, 61, 86);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    width: 60%;
+}
+
+#nome {
+    color: rgb(142, 142, 212);
+}
+
+#titulo {
+    color: rgb(184, 181, 202);
+}
+
+.primeira-sessao {
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    padding: 10px;
+    color: rgb(184, 181, 202);
+    background-color: rgb(91, 82, 103);
+    border-radius: 20px;
+    margin: 10px;
+    width: 60vw;
+}
+
+
+
+.primeira-sessao p {
+    background-color: rgb(71, 61, 86);
+    border-radius: 40px;
+    height: 20px;
+    width: 120px;
+    display: flex;
+    justify-content: center;
+}
+
+#como-usar {
+    display: flex;
+    justify-content: center;
+    color: rgb(71, 61, 86);
+}
+
+.segunda-sessao {
+    margin: 10px;
+    background-color: rgb(201, 200, 203);
+    border-radius: 25px;
+    padding: 20px;
+    visibility: hidden;
+    color: rgb(71, 61, 86);
+}
+
+.primeira-pessoa {
+    display: flex;
+    justify-content: start;
+    gap: 5px;
+}
+
+.segunda-pessoa {
+    display: flex;
+    justify-content: end;
+    gap: 5px;
+}
+
+#modal {
+    position: absolute;
+    background-color: rgb(201, 200, 203);
+    border-radius: 20px;
+    margin: 10px;
+    padding: 10px;
+    display: none;
+    flex-direction: column;
+    position: fixed;
+}
+
+
+span p {
+    color: rgb(71, 61, 86);
+}
+
+#botao {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.random{
+    font-size: 10px;
+}
+
+.palavra{
+    display: flex;
+    flex-direction: column;
+}
+
+.palavra img{
+    height: 20px;
+}
+
+.audio-icon button{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.audio-icon{
+    display: flex;
+    justify-content: end;
+}
+
+.primeiro-container :hover{
+    cursor: pointer;
+    color: black;
+    transition: 0.2s;
+}
+
+.segundo-container :hover{
+    cursor: pointer;
+    color: black;
+    transition: 0.2s;
+}
